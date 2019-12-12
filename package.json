@@ -4,7 +4,9 @@
   "description": "Using JWTs to Authenticate across requests",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/DomBruno/webauth-iii-challenge#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "helmet": "^3.21.2",
